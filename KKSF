@@ -519,8 +519,5 @@ Section1:NewButton("FLEE THE FACILITY", "FLSCPRT", function()loadstring(game:Htt
     print("Clicked")
 end)
 
-local Tab = Window:NewTab("TOGGLE")
-local Section = Tab:NewSection("TOGGLE MENU (N)")
-Section:NewKeybind("TOGGLE MENU (N)", "OPEN/CLOSE MENU DUH", Enum.KeyCode.N, function()
-	Library:ToggleUI()
-end)
+local Tab = Window:NewTab("INFO")
+local Section = Tab:NewSection("THIS SCRIPT WAS MADE BY Rev#1061 {}OWNER{}")
